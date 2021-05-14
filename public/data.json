@@ -135,6 +135,12 @@
         "isMedia": false
       },
       {
+        "title": "《哈佛商業經理雜誌》：他為德企帶來重要改變",
+        "url": "https://www.businesstoday.com.tw/article/category/183016/post/202105120030/",
+        "image": "https://doqvf81n9htmm.cloudfront.net/data/crop_article/113461/90.jpg_1140x855.jpg",
+        "isMedia": false
+      },
+      {
         "title": "拜登大撒63兆台幣、美國拚大基建　「台灣隊」機會來了！　鋼鐵、網通、儲能、電動車最受惠　為何台廠吃得到這些大餅？",
         "url": "https://www.businesstoday.com.tw/article/category/183025/post/202105050028/",
         "image": "https://doqvf81n9htmm.cloudfront.net/data/crop_article/113209/1140-0505.jpg_1140x855.jpg",
@@ -233,6 +239,11 @@
           "title": "信義房屋",
           "image": "images/organizers/logotype2-01.png",
           "url": "https://www.sinyi.com.tw/"
+        },
+        {
+          "title": "日月光",
+          "image": "images/organizers/logotype2-04.png",
+          "url": "https://www.aseglobal.com/ch"
         },
         {
           "title": "台灣銀行",
