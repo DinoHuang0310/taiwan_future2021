@@ -5,15 +5,16 @@
       <div class="flex justify-center lg:justify-end lg:items-center lg:w-1/2">
         <div class="mb-4 lg:mb-0 lg:mr-1/40">
           <Title class="text-center lg:text-left">{{ getAddress.title }}</Title>
+          <div class="w-11/12 md:w-auto m-auto md:text-lg pb-2">因應疫情守護健康，舉辦日期調整</div>
           <table class="w-11/12 md:w-auto m-auto md:text-lg">
             <tbody>
               <tr>
                 <td class="w-px whitespace-nowrap pl-0 pr-2 pb-4 align-top">日期: </td>
-                <td class="pl-0 md:px-2 pb-4 tracking-wider" v-html="getAddress.date" />
+                <td class="pl-0 md:px-2 pb-2 tracking-wider" v-html="getAddress.date" />
               </tr>
               <tr>
                 <td class="w-px whitespace-nowrap pl-0 pr-2 pb-4 align-top">地點: </td>
-                <td class="pl-0 md:px-2 pb-4" v-html="getAddress.address" />
+                <td class="pl-0 md:px-2 pb-2" v-html="getAddress.address" />
               </tr>
             </tbody>
           </table>
