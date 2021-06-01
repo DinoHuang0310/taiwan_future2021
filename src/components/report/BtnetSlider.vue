@@ -42,12 +42,13 @@ export default {
     Slick,
   },
   data: function() {
+    const self = this;
     return {
       slickOptions: {
         infinite: true,
         autoplay: true,
         autoplaySpeed : 3000,
-        centerMode: true,
+        centerMode: self.sliderData.length > 2 ? true : false,
         adaptiveHeight: true,
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -72,9 +73,9 @@ export default {
               slidesToShow: 1,
               centerPadding: '0',
             }
-          },
+          }
         ]
-      },
+      }
     }
   }
 }
