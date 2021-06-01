@@ -24,6 +24,12 @@
             "isAnchor": true
         },
         {
+            "name": "特別企劃",
+            "nameEN": "SPECIAL REPORT",
+            "url": "#specialreport",
+            "isAnchor": true
+        },
+        {
             "name": "立即購票",
             "nameEN": "REGISTER",
             "url": "#register",
@@ -191,6 +197,24 @@
                 "title": "航運股史上最瘋狂漲價！澳洲航線漲894％、歐洲航線漲516％　斷鏈、掉單、塞港….缺櫃風暴全解析",
                 "url": "https://www.businesstoday.com.tw/article/category/183016/post/202101130011/",
                 "image": "https://doqvf81n9htmm.cloudfront.net/data/crop_article/109663/62.jpg_1140x855.jpg",
+                "isMedia": false
+            }
+        ]
+    },
+    "specialreport": {
+        "title": "特別企劃",
+        "titleEN": "SPECIAL REPORT",
+        "list": [
+            {
+                "title": "合庫「主動、靈活、創新」　打造新世代財管服務",
+                "url": "https://www.businesstoday.com.tw/article/category/183012/post/202105260033/",
+                "image": "https://doqvf81n9htmm.cloudfront.net/data/crop_article/114123/0526-1.jpg_1140x855.jpg",
+                "isMedia": false
+            },
+            {
+                "title": "引領「銀色金融」潮流　合作金庫走一條金融創新路",
+                "url": "https://www.businesstoday.com.tw/article/category/183017/post/202105280007/",
+                "image": "https://doqvf81n9htmm.cloudfront.net/data/crop_article/114230/thumbnail_1622442790331.jpg_1140x855.jpg",
                 "isMedia": false
             }
         ]
