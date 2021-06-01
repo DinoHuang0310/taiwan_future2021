@@ -13,6 +13,28 @@
     <Organizer />
     <BtnetFooter />
 
+    <!-- popup box -->
+    <modal
+      name="alert"
+      width="90%"
+      height="70%"
+    >
+      <div class="relative h-full flex justify-center items-center">
+        <div class="absolute -top-4 -right-4 cursor-pointer">
+          <v-icon
+            name="times-circle"
+            scale="3"
+            @click="$modal.hide(`alert`)"
+          />
+        </div>
+        <article>
+          <h4 class="text-xl font-bold mb-4 xl:mb-6">【重要公告】</h4>
+          <p class="pb-4">第四屆《今周刊》台灣大未來 國際高峰會</p>
+          <p class="pb-4">因應疫情升溫，配合中央疫情指揮中心政策，原訂2021年6月30日（三）、7月1日（四），假遠東香格里拉國際大飯店三樓宴會廳舉辦之【第四屆 台灣大未來 國際高峰會】，將延期至8月18日（三）、19日（四）於同一地點舉行。後續最新消息，請密切留意活動官網。</p>
+          <p class="py-4 text-right mr-2">《今周刊》2021/5/26</p>
+        </article>
+      </div>
+    </modal>
   </div>
 </template>
 
@@ -30,6 +52,9 @@ import Address from "./components/Address"
 import Organizer from "./components/agencies/Organizer"
 import BtnetFooter from "./components/BtnetFooter"
 
+import Icon from 'vue-awesome/components/Icon'
+import 'vue-awesome/icons/times-circle'
+
 export default {
   name: 'App',
   components: {
@@ -44,11 +69,14 @@ export default {
     Register,
     Address,
     Organizer,
-    BtnetFooter
+    BtnetFooter,
+    'v-icon': Icon
   },
   mounted() {
     // 調用store中的actions 取得本頁資料
     this.$store.dispatch('GETINDEXDATA');
+    // 顯示popup公告
+    this.$modal.show('alert');
   }
 }
 </script>
