@@ -1,332 +1,554 @@
 {
-    "navList": [{
-            "name": "首頁",
-            "nameEN": "HOME",
-            "url": "#home",
-            "isAnchor": true
+  "navList": [{
+      "name": "首頁",
+      "nameEN": "HOME",
+      "url": "#home",
+      "isAnchor": true
+    },
+    {
+      "name": "論壇引言",
+      "nameEN": "ABOUT",
+      "url": "#about",
+      "isAnchor": true
+    },
+    {
+      "name": "趨勢議題",
+      "nameEN": "KEY ISSUE",
+      "url": "#keyissue",
+      "isAnchor": true
+    },
+    {
+      "name": "貴賓/講者",
+      "nameEN": "GUEST",
+      "url": "#guest",
+      "isAnchor": true
+    },
+    {
+      "name": "前瞻觀點",
+      "nameEN": "REPORT",
+      "url": "#report",
+      "isAnchor": true
+    },
+    {
+      "name": "特別企劃",
+      "nameEN": "SPECIAL REPORT",
+      "url": "#specialreport",
+      "isAnchor": true
+    },
+    {
+      "name": "立即購票",
+      "nameEN": "REGISTER",
+      "url": "#register",
+      "isAnchor": true
+    },
+    {
+      "name": "歷程回顧",
+      "nameEN": "REVIEW",
+      "navList": [{
+          "name": "2020",
+          "url": "https://www.businesstoday.com.tw/topic/2020/TaiwanFuture"
         },
         {
-            "name": "論壇引言",
-            "nameEN": "ABOUT",
-            "url": "#about",
-            "isAnchor": true
+          "name": "2019",
+          "url": "https://events.businesstoday.com.tw/2019/taiwanfuture/"
         },
         {
-            "name": "貴賓/講者",
-            "nameEN": "GUEST",
-            "url": "#guest",
-            "isAnchor": true
-        },
-        {
-            "name": "前瞻觀點",
-            "nameEN": "REPORT",
-            "url": "#report",
-            "isAnchor": true
-        },
-        {
-            "name": "特別企劃",
-            "nameEN": "SPECIAL REPORT",
-            "url": "#specialreport",
-            "isAnchor": true
-        },
-        {
-            "name": "立即購票",
-            "nameEN": "REGISTER",
-            "url": "#register",
-            "isAnchor": true
-        },
-        {
-            "name": "歷程回顧",
-            "nameEN": "REVIEW",
-            "navList": [{
-                    "name": "2020",
-                    "url": "https://www.businesstoday.com.tw/topic/2020/TaiwanFuture"
-                },
-                {
-                    "name": "2019",
-                    "url": "https://events.businesstoday.com.tw/2019/taiwanfuture/"
-                },
-                {
-                    "name": "2018",
-                    "url": "https://event.businesstoday.com.tw/2018/taiwanfuture/"
-                }
-            ]
-        },
-        {
-            "name": "<img src='images/ico-facebook.svg' alt='facebook-share' />",
-            "class": "facebook-share",
-            "url": "http://www.facebook.com/share.php?u=https://businesstoday.com.tw/bt_topic/2021/TaiwanFuture",
-            "isAnchor": false
-        },
-        {
-            "name": "<img src='images/ico-line.svg' alt='line-share' />",
-            "class": "line-share",
-            "url": "https://social-plugins.line.me/lineit/share?url=https://businesstoday.com.tw/bt_topic/2021/TaiwanFuture",
-            "isAnchor": false
+          "name": "2018",
+          "url": "https://event.businesstoday.com.tw/2018/taiwanfuture/"
         }
-    ],
-    "about": {
-        "title": "論壇引言",
-        "titleEN": "About",
-        "article": [
-            [
-                "2020年，一場疫情席捲全球，",
-                "促使企業加速數位轉型，",
-                "2021年，拜登推出綠色新政，",
-                "全面啟動產業汰舊換新。"
-            ],
-            [
-                "現在，正是全球經濟關鍵的轉捩點，",
-                "台灣該如何成為新浪潮下的贏家？"
-            ]
-        ]
+      ]
     },
-    "spotlight": {
-        "title": "領袖匯聚，共創未來",
-        "list": [{
-                "title": "2000位",
-                "description": ["產官學研領袖、", "企業CEO與高階主管與會交流"]
-            },
-            {
-                "title": "250則",
-                "description": ["數位、平面、", "廣電媒體爭相報導"]
-            },
-            {
-                "title": "70位",
-                "description": ["國內外政經領袖、", "趨勢專家、企業主專講對談"]
-            },
-            {
-                "title": "75家",
-                "description": ["政商夥伴", "協力合作"]
-            }
-        ]
+    {
+      "name": "<img src='images/ico-facebook.svg' alt='facebook-share' />",
+      "class": "facebook-share",
+      "url": "http://www.facebook.com/share.php?u=https://businesstoday.com.tw/bt_topic/2021/TaiwanFuture",
+      "isAnchor": false
     },
-    "guest": {
-        "title": "貴賓/講者",
-        "titleEN": "GUEST",
-        "list": [
-            [{
-                    "type": "-國際講師-",
-                    "name": "巴里．艾肯格林<br><span class='text-base'>Barry Eichengreen</span>",
-                    "position": "《經濟學人》：後金融危機時代最具影響力的經濟學家",
-                    "image": "images/speakers/speaker2-1.png",
-                    "description": [
-                        "加州大學柏克萊分校經濟學、歷史學、耶魯大學經濟學博士。曾任國際貨幣基金組織（IMF）資深政策顧問，現為加州大學柏克萊分校經濟學與政治學教授、經濟史學會會長、貝拉吉奧學者及經濟官員集團（Bellagio Group）召集人、彼得森國際經濟研究所（PIIE）學術顧問委員會主席、美國國家經濟研究局（NBER）研究員。",
-                        "專長領域為國際貨幣金融體系、金本位制的歷史與固定匯率制的趨勢預測，著有《囂張的特權：美元的國際化之路及對中國的啟示》、《The Populist Temptation: Economic Grievance and Political Reaction in the Modern Era》等多本暢銷中英文著作。"
-                    ]
-                },
-                {
-                    "type": "-國際講師-",
-                    "name": "博多．楊森<br><span class='text-base'>Bodo Janssen</span>",
-                    "position": "《哈佛商業經理雜誌》：帶來德國企管界最重要的轉變",
-                    "image": "images/speakers/speaker2-2.png",
-                    "description": [
-                        "漢堡大學企業管理系與中文系畢業，現為「自由盟約」（Upstalsboom）連鎖旅館集團總裁，是德國北部旅館界的龍頭企業。",
-                        "因父親突然墜機身亡不得不接下家族旅館，但因錯誤管理導致經營陷入困境。後運用古倫神父推廣之企業領導課程，3年內從個人內在到企業文化都翻轉革新。博多本人從玩世不恭的副二代轉變為以人為本的企業家；集團的營業額加倍成長、員工滿意度和顧客再推薦率高達9成以上，獲得德國各項企業大獎，包括：最佳經營者獎、企管界最佳跨界創意獎，帶動德國企業。",
-                        "台灣超過146萬家企業，中小企業佔比近98%且多屬於家族企業，德國有7成中小企業，且多為家族企業，傳承接班的衝突和困境，與台灣相似。博多豐富創新的經驗與管理法則，將為台灣企業帶來全新的視野。",
-                        "首部中文著作《帶心：黑色職場蛻變成夢幻企業，席捲德國企管界的無聲革命》將於今年7月出版。"
-                    ]
-                }
-            ]
-        ]
-    },
-    "report": {
-        "title": "前瞻觀點",
-        "titleEN": "REPORT",
-        "list": [{
-                "title": "前IMF資深顧問艾肯格林：美國經濟穩復甦　該忘掉「零利率時代」了",
-                "url": "https://www.businesstoday.com.tw/article/category/183025/post/202105050012/",
-                "image": "https://doqvf81n9htmm.cloudfront.net/data/crop_article/113193/68.jpg_1140x855.jpg",
-                "isMedia": false
-            },
-            {
-                "title": "《哈佛商業經理雜誌》：他為德企帶來重要改變",
-                "url": "https://www.businesstoday.com.tw/article/category/183016/post/202105120030/",
-                "image": "https://doqvf81n9htmm.cloudfront.net/data/crop_article/113461/90.jpg_1140x855.jpg",
-                "isMedia": false
-            },
-            {
-                "title": "拜登大撒63兆台幣、美國拚大基建　「台灣隊」機會來了！　鋼鐵、網通、儲能、電動車最受惠　為何台廠吃得到這些大餅？",
-                "url": "https://www.businesstoday.com.tw/article/category/183025/post/202105050028/",
-                "image": "https://doqvf81n9htmm.cloudfront.net/data/crop_article/113209/1140-0505.jpg_1140x855.jpg",
-                "isMedia": false
-            },
-            {
-                "title": "2021年經濟預測 令人不安的「強復甦」！你的新台幣荷包能否強強滾？",
-                "url": "https://www.businesstoday.com.tw/article/category/183025/post/202012090009/",
-                "image": "https://doqvf81n9htmm.cloudfront.net/data/crop_article/108501/88.jpg_1140x855.jpg",
-                "isMedia": false
-            },
-            {
-                "title": "拜登接手後，準備這樣幹！凡事求穩的他，將牽動何種台美關係？",
-                "url": "https://www.businesstoday.com.tw/article/category/80398/post/202011110017/",
-                "image": "https://doqvf81n9htmm.cloudfront.net/data/crop_article/107533/11112.jpg_1140x855.jpg",
-                "isMedia": false
-            },
-            {
-                "title": "拜登政策、華爾街大戶都向它靠攏　市場三大軌跡 揭ESG浪潮猛撲牛年",
-                "url": "https://www.businesstoday.com.tw/article/category/183009/post/202101130040/",
-                "image": "https://doqvf81n9htmm.cloudfront.net/data/crop_article/109692/112.jpg_1140x855.jpg",
-                "isMedia": false
-            },
-            {
-                "title": "獨家專訪》連華爾街巨頭也關注這件事　為何黃天牧認為ESG三個字母中，台灣最缺「S」？",
-                "url": "https://www.businesstoday.com.tw/article/category/80393/post/202103310041/",
-                "image": "https://doqvf81n9htmm.cloudfront.net/data/linhsinnan1_196/186173.jpg",
-                "isMedia": false
-            },
-            {
-                "title": "大魔王來了！上市櫃公司小心，620兆資金正因「一條法規」調整持股",
-                "url": "https://www.businesstoday.com.tw/article/category/183015/post/202103310010/",
-                "image": "https://doqvf81n9htmm.cloudfront.net/data/crop_article/112071/033111140.jpg_1140x855.jpg",
-                "isMedia": false
-            },
-            {
-                "title": "新冠疫後時代 各產業彎道超車的關鍵　直擊工廠、醫院到展演娛樂 靠5G專網跨入最強進化",
-                "url": "https://www.businesstoday.com.tw/article/category/183015/post/202102240010/",
-                "image": "https://doqvf81n9htmm.cloudfront.net/data/crop_article/110939/86.jpg_1140x855.jpg",
-                "isMedia": false
-            },
-            {
-                "title": "「新五哥」跨電動車！百兆商機噴發，台灣的機會在哪裡？",
-                "url": "https://www.businesstoday.com.tw/article/category/183015/post/202101270018/",
-                "image": "https://doqvf81n9htmm.cloudfront.net/data/crop_article/110192/01271140.jpg_1140x855.jpg",
-                "isMedia": false
-            },
-            {
-                "title": "航運股史上最瘋狂漲價！澳洲航線漲894％、歐洲航線漲516％　斷鏈、掉單、塞港….缺櫃風暴全解析",
-                "url": "https://www.businesstoday.com.tw/article/category/183016/post/202101130011/",
-                "image": "https://doqvf81n9htmm.cloudfront.net/data/crop_article/109663/62.jpg_1140x855.jpg",
-                "isMedia": false
-            }
-        ]
-    },
-    "specialreport": {
-        "title": "特別企劃",
-        "titleEN": "SPECIAL REPORT",
-        "list": [
-            {
-                "title": "合庫「主動、靈活、創新」　打造新世代財管服務",
-                "url": "https://www.businesstoday.com.tw/article/category/183012/post/202105260033/",
-                "image": "https://doqvf81n9htmm.cloudfront.net/data/crop_article/114123/0526-1.jpg_1140x855.jpg",
-                "isMedia": false
-            },
-            {
-                "title": "引領「銀色金融」潮流　合作金庫走一條金融創新路",
-                "url": "https://www.businesstoday.com.tw/article/category/183017/post/202105280007/",
-                "image": "https://doqvf81n9htmm.cloudfront.net/data/crop_article/114230/thumbnail_1622442790331.jpg_1140x855.jpg",
-                "isMedia": false
-            }
-        ]
-    },
-    "register": {
-        "state": true,
-        "title": "立即購票",
-        "titleEN": "REGISTER",
-        "tickettype": [{
-                "type": "現場席次",
-                "value": "$10,800/ 席",
-                "description": "早鳥優惠",
-                "url": "https://www.businesstoday.com.tw/subscription/category/592/detail/1315"
-            },
-            {
-                "type": "線上席次",
-                "value": "$3,888/ 席",
-                "description": "遠端進修優惠",
-                "url": "https://www.businesstoday.com.tw/subscription/category/592/detail/1317"
-            }
-        ],
-        "alert": [
-            "【現場席次】每席含：兩日高峰會入場券＋兩日遠東飯店中西式自助午餐＋《今周刊》一年52期+《今周刊》APP一年",
-            "【線上席次】每席含：兩日線上論壇入場帳號+《今周刊》半年26期+《今周刊》APP 半年",
-            "【專屬權益】《今周刊》會後提供全體與會者兩日各議程的專屬影片，供您重溫精彩演講與對談，預計7月中旬寄發連結與登入說明",
-            "10人以上團購請洽：<a href='mailto:caralin@btnet.com.tw'>caralin@btnet.com.tw</a> / (02)2581-6196#227",
-            "主辦單位《今周刊》保有隨時調整活動內容之權利"
-        ],
-        "closeMessage": "席次售罄‧銘謝額滿"
-    },
-    "address": {
-        "title": "活動資訊",
-        "date": "2021/08/18(三) - 2021/08/19(四)",
-        "address": "香格里拉台北遠東國際大飯店3F 遠東宴會廳<br>(台北市敦化南路二段201號）"
-    },
-    "agencies": [{
-            "title": "合作夥伴",
-            "list": [{
-                    "title": "元大投信",
-                    "image": "images/organizers/logotype2-05.png",
-                    "url": "https://www.yuantafunds.com/"
-                },
-                {
-                    "title": "中華電信",
-                    "image": "images/organizers/logotype2-00.png",
-                    "url": "https://www.cht.com.tw/home/consumer"
-                },
-                {
-                    "title": "信義房屋",
-                    "image": "images/organizers/logotype2-01.png",
-                    "url": "https://www.sinyi.com.tw/"
-                },
-                {
-                    "title": "日月光",
-                    "image": "images/organizers/logotype2-04.png",
-                    "url": "https://www.aseglobal.com/ch"
-                },
-                {
-                    "title": "台灣銀行",
-                    "image": "images/organizers/logotype2-02.png",
-                    "url": "https://www.bot.com.tw/Pages/default.aspx"
-                },
-                {
-                    "title": "集保所",
-                    "image": "images/organizers/logotype2-03.png",
-                    "url": "https://www.tdcc.com.tw/portal/zh/"
-                },
-                {
-                    "title": "台灣期貨交易所",
-                    "image": "images/organizers/logotype2-06.png",
-                    "url": "https://www.taifex.com.tw/cht/index"
-                }
-            ]
-        },
-        {
-            "title": "協辦媒體",
-            "list": [{
-                    "title": "民視",
-                    "image": "images/organizers/logotype3-01.png",
-                    "url": "https://www.ftv.com.tw/"
-                },
-                {
-                    "title": "寰宇",
-                    "image": "images/organizers/logotype3-02.png",
-                    "url": "http://www.cstvgroup.com"
-                },
-                {
-                    "title": "ETtoday",
-                    "image": "images/organizers/logotype3-03.png",
-                    "url": "https://www.ettoday.net/"
-                },
-                {
-                    "title": "Hit FM",
-                    "image": "images/organizers/logotype3-04.png",
-                    "url": "http://www.hitoradio.com/newweb/"
-                },
-                {
-                    "title": "POP radio",
-                    "image": "images/organizers/logotype3-05.png",
-                    "url": "http://www.pop917.com/home.aspx"
-                },
-                {
-                    "title": "正聲",
-                    "image": "images/organizers/logotype3-06.png",
-                    "url": "https://www.csbc.com.tw/"
-                },
-                {
-                    "title": "寶島",
-                    "image": "images/organizers/logotype3-07.png",
-                    "url": "http://www.superfm98-5.com.tw/web/index/index.jsp"
-                }
-            ]
-        }
+    {
+      "name": "<img src='images/ico-line.svg' alt='line-share' />",
+      "class": "line-share",
+      "url": "https://social-plugins.line.me/lineit/share?url=https://businesstoday.com.tw/bt_topic/2021/TaiwanFuture",
+      "isAnchor": false
+    }
+  ],
+  "about": {
+    "title": "論壇引言",
+    "titleEN": "About",
+    "article": [
+      [
+        "2020年，一場疫情席捲全球，",
+        "促使企業加速數位轉型，",
+        "2021年，拜登推出基建新政，",
+        "全面啟動產業汰舊換新。"
+      ],
+      [
+        "現在，正是全球經濟關鍵的轉捩點，",
+        "台灣該如何成為新浪潮下的贏家？"
+      ]
     ]
+  },
+  "spotlight": {
+    "title": "領袖匯聚，共創未來",
+    "list": [{
+        "title": "2000位",
+        "description": ["產官學研領袖、", "企業CEO與高階主管與會交流"]
+      },
+      {
+        "title": "250則",
+        "description": ["數位、平面、", "廣電媒體爭相報導"]
+      },
+      {
+        "title": "70位",
+        "description": ["國內外政經領袖、", "趨勢專家、企業主專講對談"]
+      },
+      {
+        "title": "75家",
+        "description": ["政商夥伴", "協力合作"]
+      }
+    ]
+  },
+  "issue": {
+    "title": "趨勢議題",
+    "titleEN": "KEY ISSUE",
+    "list": [{
+        "title": "經濟復甦<br>重立秩序",
+        "description": "歐美解封在即，預料將迎來消費力爆發，<br>但美國通膨陰影仍揮之不去，經濟復甦曙光下仍有種種未知變數，<br>疫後的世界經濟新秩序，台灣該如何因應與佈局？"
+      },
+      {
+        "title": "永續金融<br>經濟新價值",
+        "description": "永續發展已是全球經濟轉型的首要目標，<br>而扮演企業活水的金融業更是引領轉型的重要引擎。<br>在許多國際資產管理機構許諾永續金融目標時，<br>台灣要如何持續創造金融、實體產業與永續趨勢三贏的局面？"
+      },
+      {
+        "title": "ESG永續願景<br>世界共榮",
+        "description": "疫情衝擊後，企業主和消費者更深刻意識，<br>追求繁榮進步的同時，要同步思考環境責任以及社會回饋。<br>台灣企業要如何結合自身核心能力，<br>透過ESG原則落實環境、社會與公司治理，<br>持續推動企業邁向永續發展？<br>這將是經營者必修的顯學與首要課題。"
+      },
+      {
+        "title": "國際物流<br>產業鏈結",
+        "description": "新冠肺炎疫情肆虐，全球供應鏈重組，國際物流產業益顯重要。<br>位處亞洲樞紐位置的台灣，如何運用最新科技強化管理，<br>打造高強韌、高效率、高服務的國際運輸鏈，成為全球產業的關鍵夥伴？"
+      },
+      {
+        "title": "二代傳承<br>創新管理",
+        "description": "全台中小企業佔所有企業的比例高達九成，且多屬於家族企業。<br>除了職位交棒，更要傳承智慧與經驗。<br>但要如何消弭世代衝突、及早培育具備擘劃格局及營運能力的人才，<br>延續企業精神，亦能回應高速變化的時局，建立成功的二代管理經營？<br>實為企業經營不可忽視的根本課題。"
+      },
+      {
+        "title": "引領5G<br>驅動未來",
+        "description": "受疫情衝擊，各國加緊5G基礎建設及5G的創新應用。<br>5G 科技擁有超高速、大連結及低延遲三大特點，<br>為各產業帶來全方位的產業轉型，<br>人類生活正式進入「無網不在」的超智慧時代。<br>面對這是不可擋的龐大商機，台灣準備好了嗎？"
+      },
+      {
+        "title": "移動革命<br>電動車已成顯學",
+        "description": "隨著各國低碳永續政策、電動車儼然是下一波最重要的產業變革，<br>連動也驅動相關產業和供應鏈的全面革新。<br>面對這股全球移動革命的浪潮，我們該如何站穩不可取代的戰略位置？"
+      },
+      {
+        "title": "投資台灣<br>在地經濟起飛",
+        "description": "在美中貿易戰、供應鏈全新洗牌影響下，<br>帶動台商回流投資，也成為活絡城市經濟的重要機會。<br>為吸引更多企業主進駐，地方政府要如何開拓經濟建設、串連產業、接軌國際，<br>為城市挹注多元創新的活力，打造出人們好生活、好工作的理想城市？"
+      }
+    ]
+  },
+  "guest": {
+    "title": "貴賓/講者",
+    "titleEN": "GUEST",
+    "list": [
+      [{
+          "type": "-國際講師-",
+          "name": "巴里．艾肯格林<br><span class='text-base'>Barry Eichengreen</span>",
+          "position": "《經濟學人》：後金融危機時代最具影響力的經濟學家",
+          "image": "images/speakers/speaker2-1.png",
+          "description": [
+            "加州大學柏克萊分校經濟學、歷史學、耶魯大學經濟學博士。曾任國際貨幣基金組織（IMF）資深政策顧問，現為加州大學柏克萊分校經濟學與政治學教授、經濟史學會會長、貝拉吉奧學者及經濟官員集團（Bellagio Group）召集人、彼得森國際經濟研究所（PIIE）學術顧問委員會主席、美國國家經濟研究局（NBER）研究員。",
+            "專長領域為國際貨幣金融體系、金本位制的歷史與固定匯率制的趨勢預測，著有《囂張的特權：美元的國際化之路及對中國的啟示》、《The Populist Temptation: Economic Grievance and Political Reaction in the Modern Era》等多本暢銷中英文著作。"
+          ]
+        },
+        {
+          "type": "-國際講師-",
+          "name": "博多．楊森<br><span class='text-base'>Bodo Janssen</span>",
+          "position": "《哈佛商業經理雜誌》：帶來德國企管界最重要的轉變、樹立二代接班典範",
+          "image": "images/speakers/speaker2-2.png",
+          "description": [
+            "漢堡大學企業管理系與中文系畢業，現為「自由盟約」（Upstalsboom）連鎖旅館集團總裁，是德國北部旅館界的龍頭企業。",
+            "因父親突然墜機身亡不得不接下家族旅館，但因錯誤管理導致經營陷入困境。後運用古倫神父推廣之企業領導課程，3年內從個人內在到企業文化都翻轉革新。博多本人從玩世不恭的副二代轉變為以人為本的企業家；集團的營業額加倍成長、員工滿意度和顧客再推薦率高達9成以上，獲得德國各項企業大獎，包括：最佳經營者獎、企管界最佳跨界創意獎，帶動德國企業改革風潮，樹立二代接班典範。",
+            "台灣超過146萬家企業，中小企業佔比近98%且多屬於家族企業，德國有7成中小企業，且多為家族企業，傳承接班的衝突和困境，與台灣相似。博多豐富創新的經驗與管理法則，將為台灣企業帶來全新的視野。",
+            "首部中文著作《帶心：黑色職場蛻變成夢幻企業，席捲德國企管界的無聲革命》將於今年7月出版。"
+          ]
+        }
+      ],
+      [{
+          "type": "-國內講師-",
+          "name": "黃天牧",
+          "position": "金融監督管理委員會主任委員",
+          "image": "images/speakers/speaker3-1.png",
+          "experience": [{
+              "title": "學歷：",
+              "list": ["國立政治大學銀行學系畢業", "國立中山大學中山學術研究所碩士", "美國南加州大學公共行政博士"]
+            },
+            {
+              "title": "經歷：",
+              "list": ["財政部金融局組長、主任秘書、副局長", "行政院金融監督管理委員會主任秘書、代理檢查局局長", "行政院金融監督管理委員會保險局局長", "金融監督管理委員會保險局局長", "金融監督管理委員會證券期貨局局長", "金融監督管理委員會副主任委員"]
+            }
+          ]
+        },
+        {
+          "type": "-國內講師-",
+          "name": "王儷玲",
+          "position": "國立政治大學Amundi鋒裕匯理投資創新研究中心主任",
+          "image": "images/speakers/speaker3-2.png",
+          "description": [
+            "王教授為美國天普大學風險管理與保險學系博士，現任國立政治大學Amundi鋒裕匯理投資創新研究中心主任、金融科技研究中心主任、風險與保險研究中心主任委員，同時也是中華民國退休基金協會理事長及中華民國投信投顧公會理事、國泰金控及國泰人壽獨立董事。",
+            "她曾擔任金融監督管理委員會主任委員、財團法人保險安定基金董事長、台灣風險與保險學會理事長、政治大學副校長、政大商學院副院長以及產學營運暨創新育成總中心營運長。對於金融市場發展、金融科技、企業社會責任、ESG永續投資、風險管理、長壽風險與高齡社會保障、年金制度與保險商品、退休基金投資管理等議題都有深入研究，對台灣的金融保險產業與退休金制度發展有重大的貢獻。"
+          ]
+        },
+        {
+          "type": "-國內講師-",
+          "name": "黃崇哲",
+          "position": "財團法人台灣金融研訓院院長",
+          "image": "images/speakers/speaker3-3.png",
+          "experience": [{
+              "title": "學歷：",
+              "list": ["國立臺北大學都市與區域規劃博士", "國立中興大學經濟學碩士"]
+            },
+            {
+              "title": "經歷：",
+              "list": ["台灣金融研訓院副院長、院務委員、金融研究所顧問", "國立臺北大學兼任助理教授", "興萬研究顧問公司負責人", "宜蘭縣政府財政處處長", "台灣經濟研究院研究員兼BOT研究中心主任", "經濟部產業發展諮詢委員會秘書處主任"]
+            }
+          ]
+        },
+        {
+          "type": "-國內講師-",
+          "name": "劉宗聖",
+          "position": "元大投信董事長",
+          "image": "images/speakers/speaker3-4.png",
+          "experience": [{
+            "title": "學歷：",
+            "list": ["國立交通大學全球化經營未來領袖班(進修中)", "中國上海財經大學經濟學博士", "美國威斯康辛大學財務企管碩士", "台灣東海大學經濟學系學士"]
+          }],
+          "description": ["被譽為「台灣ETF創始者」、「金融創新領航者」，重視產品研發創新，領先將AI、ESG導入資產管理。帶領公司取得16項專利，拓展亞洲市場，擁有亞洲6國ETF發行經驗，皆為業界唯一。榮獲CFA協會卓越貢獻獎、安永企業家獎、與亞洲區ETF傑出領導獎等獎項，著有中英文書籍逾60本。"]
+        },
+        {
+          "type": "-國內講師-",
+          "name": "汪渡村",
+          "position": "日月光投控集團行政長",
+          "image": "images/speakers/speaker3-5.png",
+          "experience": [{
+              "title": "學歷：",
+              "list": ["國立政治大學法律博士", "國立中興大學法律研究所法學碩士", "國立臺灣大學法律學系學士"]
+            },
+            {
+              "title": "經歷：",
+              "list": ["第一商業銀行股份有限公司獨立常務董事", "行政院公平交易委員會委員", "銘傳大學法律學院教授兼院長"]
+            }
+          ]
+        },
+        {
+          "type": "-國內講師-",
+          "name": "鄭貞茂",
+          "position": "陽明海運董事長",
+          "image": "images/speakers/speaker3-6.png",
+          "experience": [{
+              "title": "學歷：",
+              "list": ["國立臺灣大學經濟系學士", "美國University of Wisconsin-Madison經濟學碩士"]
+            },
+            {
+              "title": "經歷：",
+              "list": ["國家發展委員會副主任委員(2018~2020)", "行政院國家發展基金管理會執行秘書(2018 ~2020)", "金融監督管理委員會副主任委員(2016~2018)", "全國農業金庫總經理(2015~2016)", "台灣金融研訓院院長(2012~2015)", "花旗(台灣)銀行財務處副總裁兼首席經濟學家(2002~2012)", "國立政治大學財務金融學系兼任副教授(2011)", "台灣經濟研究院研究六所助理研究員(1998~2002)"]
+            }
+          ]
+        },
+        {
+          "type": "-國內講師-",
+          "name": "蔡鴻青",
+          "position": "台灣董事學會發起人",
+          "image": "images/speakers/speaker3-7.png",
+          "description": [
+            "蔡鴻青（Dr. Allen Tsai）博士長期研究企業策略、家族治理及董事會重大決策。在國際投資銀行領域超過20年經驗，熟悉企業購併及投融資領域，前任法國巴黎銀行（BNP Paribas）投行台灣主管，涉及多起大型跨國購併及籌融資交易。《財訊》、《哈佛商業評論》及《家族企業》長年專欄作家，著有《百年企業策略轉折點：活下去的10個關鍵》、《董事會白皮書》及《華人家族關鍵報告》。"
+          ]
+        },
+        {
+          "type": "-國內講師-",
+          "name": "吳漢章",
+          "position": "華碩雲端暨華碩健康總經理",
+          "image": "images/speakers/speaker3-8.png",
+          "description": [
+            "2008年加入華碩集團，負責雲端事業之營運，以自有技術發展AI雲端平台，提供全球數千萬用戶雲端儲存服務、高資安檔案協作儲存平台與國家級AI雲端系統建置，帶領華碩雲端成為雲端技術的領導品牌。2016年起兼任華碩健康總經理一職，以數據為核心協助醫院發展精準健康服務。",
+            "吳漢章同時擔任台北市智慧城市委員會委員、台灣雲端運算產業協會監事暨政策法制委員會副主任委員、TCA台灣行動應用暨資安產業聯盟會長及擔任多項政府專案與計畫主持人，協助資訊科技與產業整合、推動數位轉型。"
+          ]
+        },
+        {
+          "type": "-國內講師-",
+          "name": "吳政忠",
+          "position": "科技部部長兼行政院科技會報副召集人",
+          "image": "images/speakers/speaker3-9.png",
+          "experience": [{
+              "title": "學歷：",
+              "list": ["國立臺灣大學土木工程學系畢業", "康乃爾大學理論及應用力學博士"]
+            },
+            {
+              "title": "經歷：",
+              "list": ["國立臺灣大學應用力學研究所特聘教授", "國立臺灣大學應用力學研究所所長", "行政院科技顧問組副執行秘書", "中華民國力學學會理事長", "國科會副主委", "新境界智庫科技組召集人", "工業技術研究院董事長", "國立臺灣大學名譽教授", "行政院政務委員", "台杉投資董事", "行政院科技會報副召集人", "科技部部長"]
+            }
+          ]
+        },
+        {
+          "type": "-國內講師-",
+          "name": "余怡慧",
+          "position": "Facebook 台灣及香港總經理",
+          "image": "images/speakers/speaker3-10.png",
+          "description": ["負責Facebook台灣及香港的整體業務成長，率領 Facebook 廣告與全球品牌、廣告代理商及夥伴維持策略合作的關係，並帶領台灣及香港之業務、行銷、成效衡量和創意團隊。在加入 Facebook前，余怡慧先後任職多家大型跨國科技公司累積豐富的經驗，擁有橫跨大中華區的全方位領導經驗。"]
+        },
+        {
+          "type": "-國內講師-",
+          "name": "鄭顯聰",
+          "position": "MIH Consortium 執行長",
+          "image": "images/speakers/speaker3-11.png",
+          "description": [
+            "畢業於成功大學機械工程學系。",
+            "曾任蔚來汽車聯合創始人、蔚來驅動科技 XPT 董事長兼首席執行長、福特全球採購中心負責人、Magneti Marelli 中國董事長兼首席執行長、菲亞特汽車中國董事長。早期的職業生涯從基層做起，始於零部件設計工程，後來轉向產品規劃、產品開發和供應鏈管理，肩負關鍵領導責任。",
+            "鄭顯聰認為，汽車行業和 smart mobility 領域的下一階段將邁入前所未有的時代。MIH是一個開放性的EV生態體系，降低品牌進入移動市場的門檻，同時促進聯盟成員事業的發展和創新。作爲EV產業的先鋒，他對於EV的願景透過 MIH聯盟的創建得以實現。"
+          ]
+        },
+        {
+          "type": "-國內講師-",
+          "name": "謝金河",
+          "position": "財信傳媒集團董事長",
+          "image": "images/speakers/speaker3-12.png",
+          "experience": [{
+              "title": "學歷：",
+              "list": ["國立政治大學東亞所碩士"]
+            },
+            {
+              "title": "現任：",
+              "list": ["《財訊雙週刊》發行人兼社長", "《今周刊》董事長", "《先探投資週刊》董事長", "財金文化事業股份有限公司董事長", "年代新聞台「數字臺灣」節目主講人", "東森財經台「老謝看世界」節目主持人", "中信金融管理學院講座教授"]
+            },
+            {
+              "title": "經歷：",
+              "list": ["連續兩年APEC特使團領袖代表顧問（2016、2017）", "2016年CFA卓越貢獻獎得主"]
+            },
+            {
+              "title": "研究領域：",
+              "list": []
+            }
+          ],
+          "description": ["投資趨勢、產業動態、國際與兩岸關係、藝術欣賞與投資，為執政黨的財經國師，積極為兩岸財經政策獻策。出版《跟著老謝向前跑》等多本著作。"]
+        }
+      ]
+    ]
+  },
+  "report": {
+    "title": "前瞻觀點",
+    "titleEN": "REPORT",
+    "list": [{
+        "title": "前IMF資深顧問艾肯格林：美國經濟穩復甦　該忘掉「零利率時代」了",
+        "url": "https://www.businesstoday.com.tw/article/category/183025/post/202105050012/",
+        "image": "https://doqvf81n9htmm.cloudfront.net/data/crop_article/113193/68.jpg_1140x855.jpg",
+        "isMedia": false
+      },
+      {
+        "title": "《哈佛商業經理雜誌》：他為德企帶來重要改變",
+        "url": "https://www.businesstoday.com.tw/article/category/183016/post/202105120030/",
+        "image": "https://doqvf81n9htmm.cloudfront.net/data/crop_article/113461/90.jpg_1140x855.jpg",
+        "isMedia": false
+      },
+      {
+        "title": "拜登大撒63兆台幣、美國拚大基建　「台灣隊」機會來了！　鋼鐵、網通、儲能、電動車最受惠　為何台廠吃得到這些大餅？",
+        "url": "https://www.businesstoday.com.tw/article/category/183025/post/202105050028/",
+        "image": "https://doqvf81n9htmm.cloudfront.net/data/crop_article/113209/1140-0505.jpg_1140x855.jpg",
+        "isMedia": false
+      },
+      {
+        "title": "一文讀懂「通膨衝擊」！為何股神巴菲特、避險基金天王、美國新舊財長都害怕？",
+        "url": "https://www.businesstoday.com.tw/article/category/183025/post/202105260014/",
+        "image": "https://doqvf81n9htmm.cloudfront.net/data/crop_article/114104/1(達志勿轉).jpg_1140x855.jpg",
+        "isMedia": false
+      },
+      {
+        "title": "2021年經濟預測 令人不安的「強復甦」！你的新台幣荷包能否強強滾？",
+        "url": "https://www.businesstoday.com.tw/article/category/183025/post/202012090009/",
+        "image": "https://doqvf81n9htmm.cloudfront.net/data/crop_article/108501/88.jpg_1140x855.jpg",
+        "isMedia": false
+      },
+      {
+        "title": "拜登接手後，準備這樣幹！凡事求穩的他，將牽動何種台美關係？",
+        "url": "https://www.businesstoday.com.tw/article/category/80398/post/202011110017/",
+        "image": "https://doqvf81n9htmm.cloudfront.net/data/crop_article/107533/11112.jpg_1140x855.jpg",
+        "isMedia": false
+      },
+      {
+        "title": "拜登政策、華爾街大戶都向它靠攏　市場三大軌跡 揭ESG浪潮猛撲牛年",
+        "url": "https://www.businesstoday.com.tw/article/category/183009/post/202101130040/",
+        "image": "https://doqvf81n9htmm.cloudfront.net/data/crop_article/109692/112.jpg_1140x855.jpg",
+        "isMedia": false
+      },
+      {
+        "title": "獨家專訪》連華爾街巨頭也關注這件事　為何黃天牧認為ESG三個字母中，台灣最缺「S」？",
+        "url": "https://www.businesstoday.com.tw/article/category/80393/post/202103310041/",
+        "image": "https://doqvf81n9htmm.cloudfront.net/data/linhsinnan1_196/186173.jpg",
+        "isMedia": false
+      },
+      {
+        "title": "大魔王來了！上市櫃公司小心，620兆資金正因「一條法規」調整持股",
+        "url": "https://www.businesstoday.com.tw/article/category/183015/post/202103310010/",
+        "image": "https://doqvf81n9htmm.cloudfront.net/data/crop_article/112071/033111140.jpg_1140x855.jpg",
+        "isMedia": false
+      },
+      {
+        "title": "新冠疫後時代 各產業彎道超車的關鍵　直擊工廠、醫院到展演娛樂 靠5G專網跨入最強進化",
+        "url": "https://www.businesstoday.com.tw/article/category/183015/post/202102240010/",
+        "image": "https://doqvf81n9htmm.cloudfront.net/data/crop_article/110939/86.jpg_1140x855.jpg",
+        "isMedia": false
+      },
+      {
+        "title": "「新五哥」跨電動車！百兆商機噴發，台灣的機會在哪裡？",
+        "url": "https://www.businesstoday.com.tw/article/category/183015/post/202101270018/",
+        "image": "https://doqvf81n9htmm.cloudfront.net/data/crop_article/110192/01271140.jpg_1140x855.jpg",
+        "isMedia": false
+      },
+      {
+        "title": "航運股史上最瘋狂漲價！澳洲航線漲894％、歐洲航線漲516％　斷鏈、掉單、塞港….缺櫃風暴全解析",
+        "url": "https://www.businesstoday.com.tw/article/category/183016/post/202101130011/",
+        "image": "https://doqvf81n9htmm.cloudfront.net/data/crop_article/109663/62.jpg_1140x855.jpg",
+        "isMedia": false
+      }
+    ]
+  },
+  "specialreport": {
+    "title": "特別企劃",
+    "titleEN": "SPECIAL REPORT",
+    "list": [{
+        "title": "合庫「主動、靈活、創新」　打造新世代財管服務",
+        "url": "https://www.businesstoday.com.tw/article/category/183012/post/202105260033/",
+        "image": "https://doqvf81n9htmm.cloudfront.net/data/crop_article/114123/0526-1.jpg_1140x855.jpg",
+        "isMedia": false
+      },
+      {
+        "title": "引領「銀色金融」潮流　合作金庫走一條金融創新路",
+        "url": "https://www.businesstoday.com.tw/article/category/183017/post/202105280007/",
+        "image": "https://doqvf81n9htmm.cloudfront.net/data/crop_article/114230/thumbnail_1622442790331.jpg_1140x855.jpg",
+        "isMedia": false
+      },
+      {
+        "title": "隨處辦公趨勢下，如何選擇最佳裝置？",
+        "url": "https://www.businesstoday.com.tw/article/category/183015/post/202106180006/",
+        "image": "https://doqvf81n9htmm.cloudfront.net/data/crop_article/115199/HRC20_hybridWorkplace_067s.jpg_1140x855.jpg",
+        "isMedia": false
+      }
+    ]
+  },
+  "register": {
+    "state": true,
+    "title": "立即購票",
+    "titleEN": "REGISTER",
+    "tickettype": [{
+        "type": "現場席次",
+        "value": "$10,800/ 席",
+        "description": "早鳥優惠",
+        "url": "https://www.businesstoday.com.tw/subscription/category/592/detail/1315"
+      },
+      {
+        "type": "線上席次",
+        "value": "$3,888/ 席",
+        "description": "遠端進修優惠",
+        "url": "https://www.businesstoday.com.tw/subscription/category/592/detail/1317"
+      }
+    ],
+    "alert": [
+      "【現場席次】每席含：兩日高峰會入場券＋兩日遠東飯店中西式自助午餐＋《今周刊》一年52期+《今周刊》APP一年",
+      "【線上席次】每席含：兩日線上論壇入場帳號+《今周刊》半年26期+《今周刊》APP 半年",
+      "【專屬權益】《今周刊》會後提供全體與會者兩日各議程的專屬影片，供您重溫精彩演講與對談，預計7月中旬寄發連結與登入說明",
+      "10人以上團購請洽：<a href='mailto:caralin@btnet.com.tw'>caralin@btnet.com.tw</a> / (02)2581-6196#227",
+      "主辦單位《今周刊》保有隨時調整活動內容之權利"
+    ],
+    "closeMessage": "席次售罄‧銘謝額滿"
+  },
+  "address": {
+    "title": "活動資訊",
+    "date": "2021/08/18(三) - 2021/08/19(四)",
+    "address": "香格里拉台北遠東國際大飯店3F 遠東宴會廳<br>(台北市敦化南路二段201號）"
+  },
+  "agencies": [{
+      "title": "合作夥伴",
+      "list": [{
+          "title": "元大投信",
+          "image": "images/organizers/logotype2-05.png",
+          "url": "https://www.yuantafunds.com/"
+        },
+        {
+          "title": "中華電信",
+          "image": "images/organizers/logotype2-00.png",
+          "url": "https://www.cht.com.tw/home/consumer"
+        },
+        {
+          "title": "信義房屋",
+          "image": "images/organizers/logotype2-01.png",
+          "url": "https://www.sinyi.com.tw/"
+        },
+        {
+          "title": "日月光",
+          "image": "images/organizers/logotype2-04.png",
+          "url": "https://www.aseglobal.com/ch"
+        },
+        {
+          "title": "台灣銀行",
+          "image": "images/organizers/logotype2-02.png",
+          "url": "https://www.bot.com.tw/Pages/default.aspx"
+        },
+        {
+          "title": "集保所",
+          "image": "images/organizers/logotype2-03.png",
+          "url": "https://www.tdcc.com.tw/portal/zh/"
+        },
+        {
+          "title": "微軟",
+          "image": "images/organizers/logotype2-08.png",
+          "url": "https://www.microsoft.com/zh-tw/surface/business"
+        },
+        {
+          "title": "台灣期貨交易所",
+          "image": "images/organizers/logotype2-06.png",
+          "url": "https://www.taifex.com.tw/cht/index"
+        },
+        {
+          "title": "TWSE臺灣證券交易所",
+          "image": "images/organizers/logotype2-07.png",
+          "url": "https://www.twse.com.tw/zh/"
+        }
+      ]
+    },
+    {
+      "title": "協辦媒體",
+      "list": [{
+          "title": "民視",
+          "image": "images/organizers/logotype3-01.png",
+          "url": "https://www.ftv.com.tw/"
+        },
+        {
+          "title": "寰宇",
+          "image": "images/organizers/logotype3-02.png",
+          "url": "http://www.cstvgroup.com"
+        },
+        {
+          "title": "ETtoday",
+          "image": "images/organizers/logotype3-03.png",
+          "url": "https://www.ettoday.net/"
+        },
+        {
+          "title": "Hit FM",
+          "image": "images/organizers/logotype3-04.png",
+          "url": "http://www.hitoradio.com/newweb/"
+        },
+        {
+          "title": "POP radio",
+          "image": "images/organizers/logotype3-05.png",
+          "url": "http://www.pop917.com/home.aspx"
+        },
+        {
+          "title": "正聲",
+          "image": "images/organizers/logotype3-06.png",
+          "url": "https://www.csbc.com.tw/"
+        },
+        {
+          "title": "寶島",
+          "image": "images/organizers/logotype3-07.png",
+          "url": "http://www.superfm98-5.com.tw/web/index/index.jsp"
+        }
+      ]
+    }
+  ]
 }
