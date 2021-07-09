@@ -49,7 +49,7 @@
             >
               <h6 class="text-lg font-black">{{ list.title }}</h6>
               <div v-if="list.subtitle">{{ list.subtitle }}</div>
-              <ol class="pl-5 mb-4">
+              <ol v-if="list.list.length" class="pl-5 mb-4">
                 <li
                   v-for="(experienceList, index) in list.list"
                   :key="index"

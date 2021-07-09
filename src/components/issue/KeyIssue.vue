@@ -67,8 +67,8 @@
             :style="{background: showDetail.bgcolor}"
           >
             <article class="relative md:px-1/20">
-              <h3 class=" text-3xl mb-4" v-html="getIssue.list[showDetail.showindex].title" />
-              <div v-html="getIssue.list[showDetail.showindex].description" />
+              <h3 class="text-left sm:text-center text-3xl mb-4" v-html="getIssue.list[showDetail.showindex].title.replace(/<br>/g, ' ')" />
+              <div class="text-left sm:text-center" v-html="getIssue.list[showDetail.showindex].description" />
             </article>
             <v-icon
               class="absolute top-2 right-2 md:top-4 md:right-4 cursor-pointer"
