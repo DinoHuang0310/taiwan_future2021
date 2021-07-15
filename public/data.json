@@ -189,10 +189,10 @@
         {
           "type": "-國內講師-",
           "name": "王儷玲",
-          "position": "國立政治大學Amundi鋒裕匯理投資創新研究中心主任",
+          "position": "國立政治大學金融科技研究中心主任",
           "image": "images/speakers/speaker3-2.png",
           "description": [
-            "王教授為美國天普大學風險管理與保險學系博士，現任國立政治大學Amundi鋒裕匯理投資創新研究中心主任、金融科技研究中心主任、風險與保險研究中心主任委員，同時也是中華民國退休基金協會理事長及中華民國投信投顧公會理事、國泰金控及國泰人壽獨立董事。",
+            "王教授為美國天普大學風險管理與保險學系博士，現任國立政治大學金融科技研究中心主任、風險與保險研究中心主任委員，同時也是中華民國退休基金協會理事長及中華民國投信投顧公會理事、國泰金控及國泰人壽獨立董事。",
             "她曾擔任金融監督管理委員會主任委員、財團法人保險安定基金董事長、台灣風險與保險學會理事長、政治大學副校長、政大商學院副院長以及產學營運暨創新育成總中心營運長。對於金融市場發展、金融科技、企業社會責任、ESG永續投資、風險管理、長壽風險與高齡社會保障、年金制度與保險商品、退休基金投資管理等議題都有深入研究，對台灣的金融保險產業與退休金制度發展有重大的貢獻。"
           ]
         },
@@ -451,7 +451,7 @@
     "alert": [
       "【現場席次】每席含：兩日高峰會入場券＋兩日遠東飯店中西式自助午餐＋《今周刊》一年52期+《今周刊》APP一年",
       "【線上席次】每席含：兩日線上論壇入場帳號+《今周刊》半年26期+《今周刊》APP 半年",
-      "【專屬權益】《今周刊》會後提供全體與會者兩日各議程的專屬影片，供您重溫精彩演講與對談，預計7月中旬寄發連結與登入說明",
+      "【專屬權益】《今周刊》會後提供全體與會者兩日各議程的專屬影片，供您重溫精彩演講與對談，預計八月底寄發連結與登入說明",
       "10人以上團購請洽：<a href='mailto:caralin@btnet.com.tw'>caralin@btnet.com.tw</a> / (02)2581-6196#227",
       "主辦單位《今周刊》保有隨時調整活動內容之權利"
     ],
@@ -485,9 +485,24 @@
           "url": "https://www.aseglobal.com/ch"
         },
         {
+          "title": "桃園機場",
+          "image": "images/organizers/logotype2-09.png",
+          "url": "https://www.taoyuan-airport.com/main_ch/index.aspx"
+        },
+        {
           "title": "台灣銀行",
           "image": "images/organizers/logotype2-02.png",
           "url": "https://www.bot.com.tw/Pages/default.aspx"
+        },
+        {
+          "title": "微軟",
+          "image": "images/organizers/logotype2-08.png",
+          "url": "https://www.microsoft.com/zh-tw/surface/business"
+        },
+        {
+          "title": "國貿局",
+          "image": "images/organizers/logotype2-10.png",
+          "url": "https://www.trade.gov.tw/"
         },
         {
           "title": "集保所",
@@ -495,9 +510,9 @@
           "url": "https://www.tdcc.com.tw/portal/zh/"
         },
         {
-          "title": "微軟",
-          "image": "images/organizers/logotype2-08.png",
-          "url": "https://www.microsoft.com/zh-tw/surface/business"
+          "title": "外貿協會",
+          "image": "images/organizers/logotype2-11.png",
+          "url": "https://www.taitra.org.tw/"
         },
         {
           "title": "台灣期貨交易所",
