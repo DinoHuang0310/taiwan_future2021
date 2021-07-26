@@ -8,7 +8,7 @@
     <Agenda id="agenda" />
     <Report id="report" />
     <SpecialReport id="specialreport" />
-    <Register id="register" />
+    <!-- <Register id="register" /> -->
     <Address />
     <Organizer />
     <BtnetFooter />
@@ -47,7 +47,7 @@ import Guest from "./components/guest/Guest"
 import Agenda from "./components/agenda/Agenda"
 import Report from "./components/report/Report"
 import SpecialReport from "./components/report/SpecialReport"
-import Register from "./components/Register"
+// import Register from "./components/Register"
 import Address from "./components/Address"
 import Organizer from "./components/agencies/Organizer"
 import BtnetFooter from "./components/BtnetFooter"
@@ -66,7 +66,7 @@ export default {
     Agenda,
     Report,
     SpecialReport,
-    Register,
+    // Register,
     Address,
     Organizer,
     BtnetFooter,

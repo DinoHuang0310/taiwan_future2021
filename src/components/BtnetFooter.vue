@@ -15,11 +15,11 @@
               <img src="../assets/images/contact-us.png" alt="聯絡我們">
             </a>
           </li>
-          <li>
+          <!-- <li>
             <a v-scroll-to="{el: '#register'}" class="cursor-pointer">
               <img src="../assets/images/ticket.png" alt="立即購票">
             </a>
-          </li>
+          </li> -->
         </ul>
         <button v-if="goTop" @click="backTop(500)" class="text-gray font-notoblack focus:outline-none">
           <div>↑</div>
