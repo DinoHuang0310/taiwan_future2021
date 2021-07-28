@@ -9,7 +9,7 @@
     <Report id="report" />
     <SpecialReport id="specialreport" />
     <!-- <Register id="register" /> -->
-    <Address />
+    <Address id="activity" />
     <Organizer />
     <BtnetFooter />
 
@@ -18,20 +18,23 @@
       name="alert"
       width="90%"
       height="70%"
+      class="relative"
     >
-      <div class="relative h-full flex justify-center items-center">
-        <div class="absolute -top-4 -right-4 cursor-pointer">
-          <v-icon
-            name="times-circle"
-            scale="3"
-            @click="$modal.hide(`alert`)"
-          />
-        </div>
-        <article>
-          <h4 class="text-xl font-bold mb-4 xl:mb-6">【重要公告】</h4>
-          <p class="pb-4">第四屆《今周刊》台灣大未來 國際高峰會</p>
-          <p class="pb-4">因應疫情升溫，配合中央疫情指揮中心政策，原訂2021年6月30日（三）、7月1日（四），假遠東香格里拉國際大飯店三樓宴會廳舉辦之【第四屆 台灣大未來 國際高峰會】，將延期至8月18日（三）、19日（四）於同一地點舉行。後續最新消息，請密切留意活動官網。</p>
-          <p class="py-4 text-right mr-2">《今周刊》2021/5/26</p>
+      <div class="absolute top-2 right-2 lg:top-4 lg:right-2 cursor-pointer z-10">
+        <v-icon
+          name="times-circle"
+          scale="3"
+          @click="$modal.hide(`alert`)"
+        />
+      </div>
+      <div class="relative h-full md:flex md:justify-center md:items-center overflow-auto">
+        
+        <article class="pt-14 md:pt-0 font-notoblack">
+          <h4 class="text-lg text-red font-bold mb-1 xl:mb-2">● 國內外24位大師匯聚，獨家知識饗宴</h4>
+          <h4 class="text-lg text-red font-bold mb-2 xl:mb-4">●《今周刊》跟您一起挺過去！尊榮回饋完整直播</h4>
+          <p class="pb-4">《今周刊》年度最大國際盛會【台灣大未來 國際高峰會】從2018年至今，國內外領袖雲集，日圓先生 榊原英資博士、全球經濟學大師 Tyler Cowen、新興市場投資教父 Mark Mobius等，已超過2,000位各界產官學領袖參加，為台灣產業帶來前瞻洞見。</p>
+          <p class="pb-4">今年，重磅邀請兩位國際大師—前IMF資深顧問、危機經濟學家 Barry Eichengreen、德國二代接班典範 Bodo Janssen總裁，以及國內22位產經領袖將匯聚一堂；為期兩天絕無冷場的精彩專講與對談！規劃疫後最關鍵的議題：拜登基建新政與經濟重塑、綠色金融、ESG永續潮流、企業接班轉型、國際運輸與電動車浪潮等12個關鍵議題，引領產業搶先布局。</p>
+          <p class="pb-4">在疫情衝擊下，2021年台灣產業也面臨前所未有的嚴峻考驗，今年適逢《今周刊》出刊25周年，為回饋讀者、力挺台灣度過疫情危機，我們決定全程開放線上免費收看，<span class="font-black">24位國內外大師、12個關鍵議題、兩天的獨家知識饗宴，原價NT$20,000的尊榮峰會，完整回饋給所有讀者，讓我們一起展望疫後經濟情勢，抓住未來新機會。</span></p>
         </article>
       </div>
     </modal>
@@ -76,7 +79,7 @@ export default {
     // 調用store中的actions 取得本頁資料
     this.$store.dispatch('GETINDEXDATA');
     // 顯示popup公告
-    // this.$modal.show('alert');
+    this.$modal.show('alert');
   }
 }
 </script>
