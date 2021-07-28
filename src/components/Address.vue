@@ -5,8 +5,10 @@
       <table class="w-11/12 md:w-auto m-auto md:text-lg text-left">
         <tbody>
           <tr>
-            <td class="w-px whitespace-nowrap pl-0 pr-2 pb-2 align-top">日期: </td>
-            <td class="pl-0 md:px-2 pb-2 tracking-wider" v-html="getAddress.date" />
+            <td class="w-px whitespace-nowrap pl-0 pr-2 pb-2 align-top">日期：<span v-html="getAddress.date" /></td>
+          </tr>
+          <tr>
+            <td class="w-px whitespace-nowrap pl-0 pr-2 pb-2 align-top">觀看方式：請密切留意本官網公告。</td>
           </tr>
         </tbody>
       </table>
