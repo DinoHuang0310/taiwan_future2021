@@ -227,7 +227,12 @@
           "name": "汪渡村",
           "position": "日月光投控集團行政長",
           "image": "images/speakers/speaker3-5.png",
-          "experience": [{
+          "experience": [
+            {
+              "title": "現職：",
+              "list": ["日月光半導體董事", "日月光環保永續基金會董事兼執行長"]
+            },
+            {
               "title": "學歷：",
               "list": ["國立政治大學法律博士", "國立中興大學法律研究所法學碩士", "國立臺灣大學法律學系學士"]
             },
