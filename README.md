@@ -86,6 +86,7 @@ npm run-script build
                 "name": "姓名",
                 "experience": [ // 選填
                     {
+                        "isDescription": 是否以段落呈現 (布林) // 選填; 預設false,
                         "title": "標題",
                         "subtitle": "小標",
                         "list": ["清單"]

@@ -49,7 +49,7 @@
             >
               <h6 class="text-lg font-black">{{ list.title }}</h6>
               <div v-if="list.subtitle">{{ list.subtitle }}</div>
-              <ol v-if="list.list.length" class="pl-5 mb-4">
+              <ol v-if="list.list.length && !list.isDescription" class="pl-5 mb-4">
                 <li
                   v-for="(experienceList, index) in list.list"
                   :key="index"
@@ -58,6 +58,15 @@
                   {{ experienceList }}
                 </li>
               </ol>
+              <div v-if="list.list.length && list.isDescription" class="mb-4">
+                <p
+                  v-for="(experienceList, index) in list.list"
+                  :key="index"
+                  class="mb-2"
+                >
+                  {{ experienceList }}
+                </p>
+              </div>
             </div>
           </div>
           <!-- 段落描述 -->
