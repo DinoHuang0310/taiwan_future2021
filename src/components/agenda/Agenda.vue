@@ -22,19 +22,43 @@
           :key="index"
           v-show="active === index"
         >
-          <table class="w-full tracking-normal mb-6 text-left">
-            <tbody>
-              <tr v-for="morning in content.morning" :key="morning.index">
-                <td class="p-2 lg:p-4 border-b border-gray w-px whitespace-nowrap">{{ morning.time }}</td>
-                <td class="p-2 lg:p-4 border-b border-gray w-2/5" v-html="morning.event" />
-                <td class="p-2 lg:p-4 border-b border-gray" v-html="morning.description" />
+          <table class="block sm:table w-full tracking-normal mb-6 sm:text-left">
+            <tbody class="block sm:table-row-group">
+              <tr
+                class="block sm:table-row border border-gray sm:border-0 mb-4 sm:mb-0"
+                v-for="morning in content.morning"
+                :key="morning.index"
+              >
+                <td
+                  class="block sm:table-cell p-2 lg:p-4 sm:border-b border-gray sm:w-px whitespace-nowrap text-white sm:text-gray bg-red sm:bg-white"
+                >
+                  {{ morning.time }}
+                </td>
+                <td
+                  :colspan="morning.description ? '1' : '2'"
+                  class="block sm:table-cell p-2 lg:p-4 sm:border-b border-gray sm:w-2/5"
+                  v-html="morning.event"
+                />
+                <td class="block sm:table-cell p-2 lg:p-4 sm:border-b border-gray" v-if="morning.description" v-html="morning.description" />
               </tr>
             </tbody>
-            <tbody v-show="showFullTable">
-              <tr v-for="afternoon in content.afternoon" :key="afternoon.index">
-                <td class="p-2 lg:p-4 border-b border-gray w-px whitespace-nowrap">{{ afternoon.time }}</td>
-                <td class="p-2 lg:p-4 border-b border-gray w-2/5" v-html="afternoon.event" />
-                <td class="p-2 lg:p-4 border-b border-gray" v-html="afternoon.description" />
+            <tbody class="block sm:table-row-group" v-show="showFullTable">
+              <tr
+                class="block sm:table-row border border-gray sm:border-0 mb-4 sm:mb-0"
+                v-for="afternoon in content.afternoon"
+                :key="afternoon.index"
+              >
+                <td
+                  class="block sm:table-cell p-2 lg:p-4 sm:border-b border-gray sm:w-px whitespace-nowrap text-white sm:text-gray bg-red sm:bg-white"
+                >
+                  {{ afternoon.time }}
+                </td>
+                <td
+                  :colspan="afternoon.description ? '1' : '2'"
+                  class="block sm:table-cell p-2 lg:p-4 sm:border-b border-gray sm:w-2/5"
+                  v-html="afternoon.event"
+                />
+                <td class="block sm:table-cell p-2 lg:p-4 sm:border-b border-gray" v-html="afternoon.description" />
               </tr>
             </tbody>
           </table>
@@ -51,7 +75,7 @@
             />
           </div>
           <a
-            href="images/agenda.pdf"
+            href="images/TaiwanFuture2021.pdf"
             target="_black"
             class="absolute text-red border border-red rounded-sm right-0 top-1/2 transform -translate-y-1/2 px-2 py-0.5 has-hover:hover:opacity-50"
           >
@@ -66,6 +90,10 @@
             <v-icon name="file-download" scale="1.2" />
           </button> -->
         </div>
+        <ul class="text-left mt-4 md:mt-8">
+          <li>※最新議程資訊，敬請鎖定本活動網站。</li>
+          <li>※如遇不可抗力之因素，主辦單位保留變更活動內容之權利。</li>
+        </ul>
       </div>
     </div>
   </ContentWrapper>
