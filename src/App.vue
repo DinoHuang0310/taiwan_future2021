@@ -79,7 +79,7 @@ export default {
     // 調用store中的actions 取得本頁資料
     this.$store.dispatch('GETINDEXDATA');
     // 顯示popup公告
-    this.$modal.show('alert');
+    // this.$modal.show('alert');
   }
 }
 </script>
