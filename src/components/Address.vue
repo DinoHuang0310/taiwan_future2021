@@ -5,7 +5,7 @@
         <Title>{{ getAddress.title }}</Title>
         <p class="md:text-lg">8/18、19兩天  尊榮峰會</p>
         <p class="mb-3 md:text-lg">原價20,000 <span class="text-red">回饋讀者  免費收看</span></p>
-        <p class="text-lg md:text-2xl">敬 請 期 待</p>
+        <!-- <p class="text-lg md:text-2xl">敬 請 期 待</p> -->
       </div>
 
       <!-- media -->
