@@ -41,7 +41,7 @@
           <p class="mb-2">於 8/18(三)-8/19(四)高峰會線上直播進行時，完成以下兩個步驟，即可參加抽獎，共100份超值好禮回饋：</p>
           <ol class="pl-5 mb-8">
             <li class="mb-2 list-decimal">直播進行期間，分享直播影片至個人FB，並 ＠2位朋友</li>
-            <li class="mb-2 list-decimal">填寫表單問卷並回傳</li>
+            <li class="mb-2 list-decimal">填寫表單問卷並回傳 <a class="text-red underline" href="https://reurl.cc/oga4zl" target="_blank">https://reurl.cc/oga4zl</a></li>
           </ol>
           <h5 class="text-red mb-2">【抽獎辦法】</h5>
           <ol class="pl-5 mb-8">

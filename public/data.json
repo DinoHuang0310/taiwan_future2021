@@ -30,6 +30,12 @@
       "isAnchor": true
     },
     {
+      "name": "議程",
+      "nameEN": "AGENDA",
+      "url": "#agenda",
+      "isAnchor": true
+    },
+    {
       "name": "前瞻觀點",
       "nameEN": "REPORT",
       "url": "#report",
@@ -88,7 +94,7 @@
     ]
   },
   "video": {
-    "list": ["MBvR0up4Wt8"]
+    "list": ["GhKymJXeN28"]
   },
   "spotlight": {
     "title": "領袖匯聚，共創未來",
@@ -151,6 +157,24 @@
     "title": "貴賓/講者",
     "titleEN": "GUEST",
     "list": [
+      [
+        {
+          "type": "-特邀貴賓-",
+          "name": "賴清德",
+          "position": "中華民國副總統",
+          "image": "images/speakers/speaker1-1.png",
+          "experience": [
+            {
+              "title": "學歷：",
+              "list": ["美國哈佛大學公共衛生學院碩士畢業", "國立臺灣大學復健醫學系學士畢業", "國立成功大學學士後醫學系畢業"]
+            },
+            {
+              "title": "經歷：",
+              "list": ["成大、新樓醫院主治醫師", "第3屆國大代表", "全國教師會顧問", "第4-7屆立法委員", "立法院衛生環境與社會福利委員會召集委員", "立法院跨黨派厚生會會長", "立法院司法委員會召集委員", "立法院民進黨團幹事長", "台南市市長（直轄市第1-2屆）", "行政院第29任院長", "中華民國第15任副總統"]
+            }
+          ]
+        }
+      ],
       [{
           "type": "-國際講師-",
           "name": "巴里．艾肯格林<br><span class='text-base'>Barry Eichengreen</span>",
@@ -363,17 +387,11 @@
         },
         {
           "type": "-國內講師-",
-          "name": "吳政忠",
-          "position": "科技部部長兼行政院科技會報副召集人",
+          "name": "蔡志宏",
+          "position": "臺大電信工程學研究所暨電機工程學系教授",
           "image": "images/speakers/speaker3-9.png",
-          "experience": [{
-              "title": "學歷：",
-              "list": ["國立臺灣大學土木工程學系畢業", "康乃爾大學理論及應用力學博士"]
-            },
-            {
-              "title": "經歷：",
-              "list": ["國立臺灣大學應用力學研究所特聘教授", "國立臺灣大學應用力學研究所所長", "行政院科技顧問組副執行秘書", "中華民國力學學會理事長", "國科會副主委", "新境界智庫科技組召集人", "工業技術研究院董事長", "國立臺灣大學名譽教授", "行政院政務委員", "台杉投資董事", "行政院科技會報副召集人", "科技部部長"]
-            }
+          "description": [
+            "蔡志宏教授任教於國立臺灣大學電機工程學系及電信工程學研究所，並擔任行政院科技會報辦公室兼任研究員。1988 年獲UCLA 電機工程博士後，任職AT&T Bell Labs 兩年。1990 回國後長期參與我國電信自由化及電信法規制定。他曾兼任行政院科技顧問組副執行秘書，後續擔任網通國家型計畫副執行長、台灣通訊學會理事長、中華電信獨立董事，並任亞洲．矽谷計畫執行中心人資長。2017 年底至2021 年初他擔任行政院科技會報辦公室執行秘書，協助行政院規劃推動「台灣5G 行動計畫」，目前仍持續關注頻譜規劃、智慧物聯網、低軌衛星等政策議題之研究。"
           ]
         },
         {
@@ -408,7 +426,7 @@
         {
           "type": "-國內講師-",
           "name": "陳其邁",
-          "position": "現任高雄市市長",
+          "position": "高雄市市長",
           "image": "images/speakers/speaker3-17.png",
           "experience": [
             {
@@ -464,6 +482,137 @@
       ]
     ]
   },
+  "agenda": [
+    {
+      "tabName": "8月18日(三)",
+      "morning": [
+        {
+          "time": "09:00-09:30",
+          "event": "連結開通・觀眾待機",
+          "description": ""
+        },
+        {
+          "time": "09:30-09:35",
+          "event": "主辦單位致詞",
+          "description": "《今周刊》發行人 梁永煌"
+        },
+        {
+          "time": "09:35-09:45",
+          "event": "貴賓致詞",
+          "description": "中華民國副總統 賴清德"
+        },
+        {
+          "time": "09:45-10:15",
+          "event": "<span class='inline-block bg-red px-2 py-1 mb-1 text-white'>專題演講(一)</span><p>泡沫危機？拜登新政後的全球經濟趨勢</p>",
+          "description": "美國加州大學柏克萊分校經濟系教授 Barry Eichengreen"
+        },
+        {
+          "time": "10:15-10:35",
+          "event": "<span class='inline-block bg-red px-2 py-1 mb-1 text-white'>專題演講(二)</span><p>迎向永續金融新未來</p>",
+          "description": "金融監督管理委員會主任委員 黃天牧"
+        },
+        {
+          "time": "10:35-10:45",
+          "event": "休息時間",
+          "description": ""
+        },
+        {
+          "time": "10:45-12:00",
+          "event": "<span class='inline-block bg-red px-2 py-1 mb-1 text-white'>高峰對談(一)</span><p>綠色金融的創新與機遇</p>",
+          "description": "<span class='inline-block bg-yellow px-2 py-1 mb-1 text-white'>專講/對談</span><p>主持人：《今周刊》發行人 梁永煌<br>政大Amundi鋒裕匯理投資創新研究中心主任 王儷玲<br>財團法人台灣金融研訓院院長 黃崇哲<br>元大投信董事長 劉宗聖</p>"
+        },
+        {
+          "time": "12:00-13:30",
+          "event": "中午休息",
+          "description": ""
+        }
+      ],
+      "afternoon": [
+        {
+          "time": "13:30-14:55",
+          "event": "<span class='inline-block bg-red px-2 py-1 mb-1 text-white'>高峰對談(二)</span><p>國際新標準─永續願景：ESG趨勢與發展</p>",
+          "description": "<span class='inline-block bg-yellow px-2 py-1 mb-1 text-white'>專講/對談</span><p>主持人：《今周刊》研發長 王之杰<br>中鋼公司總經理 王錫欽<br>日月光投控集團行政長 汪渡村<br>國泰投信暨國泰私募股權董事長 張錫</p>"
+        },
+        {
+          "time": "14:55-15:15",
+          "event": "休息時間",
+          "description": ""
+        },
+        {
+          "time": "15:15-16:40",
+          "event": "<span class='inline-block bg-red px-2 py-1 mb-1 text-white'>高峰對談(三)</span><p>疫後新經濟─國際運輸物流</p>",
+          "description": "<span class='inline-block bg-yellow px-2 py-1 mb-1 text-white'>專講/對談</span><p>主持人：《今周刊》研發長 王之杰<br>陽明海運董事長 鄭貞茂<br>桃園機場公司總經理 但昭璧<br>DHL國際快遞台灣運務處副總裁 盧嘉棟</p>"
+        },
+        {
+          "time": "16:40",
+          "event": "司儀結尾  高峰會第一天圓滿結束",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "tabName": "8月19日(四)",
+      "morning": [
+        {
+          "time": "09:00-09:25",
+          "event": "連結開通・觀眾待機",
+          "description": ""
+        },
+        {
+          "time": "09:25-09:55",
+          "event": "<span class='inline-block bg-red px-2 py-1 mb-1 text-white'>專題演講(三)</span><p>打造百年企業─企業傳承與革新之道</p>",
+          "description": "德國自由盟約連鎖旅館總裁 Bodo Janssen"
+        },
+        {
+          "time": "09:55-10:25",
+          "event": "<span class='inline-block bg-red px-2 py-1 mb-1 text-white'>高峰對談(四)</span><p>百年傳承─二代接班轉型新商模</p>",
+          "description": "主持人：《今周刊》總編輯 楊紹華<br>台灣董事學會發起人 蔡鴻青<br>中國信託銀行個金執行長 楊淑惠"
+        },
+        {
+          "time": "10:25-10:35",
+          "event": "休息時間",
+          "description": ""
+        },
+        {
+          "time": "10:35-12:00",
+          "event": "<span class='inline-block bg-red px-2 py-1 mb-1 text-white'>高峰對談(五)</span><p>科技新思維─5G競速下的新世界</p>",
+          "description": "<span class='inline-block bg-yellow px-2 py-1 mb-1 text-white'>專講/對談</span><p>主持人：《今周刊》研發長 王之杰<br>中華電信行動通信分公司總經理 簡志誠<br>華碩雲端暨華碩健康總經理 吳漢章<br>臺大電信工程學研究所暨電機工程學系教授 蔡志宏</p>"
+        },
+        {
+          "time": "12:00-13:30",
+          "event": "中午休息",
+          "description": ""
+        }
+      ],
+      "afternoon": [
+        {
+          "time": "13:30-13:50",
+          "event": "<span class='inline-block bg-red px-2 py-1 mb-1 text-white'>專題演講(四)</span><p>引領互動新科技：VR & AR大未來</p>",
+          "description": "Facebook台灣及香港總經理 余怡慧"
+        },
+        {
+          "time": "13:50-15:00",
+          "event": "<span class='inline-block bg-red px-2 py-1 mb-1 text-white'>高峰對談(六)</span><p>產業新趨勢─電動車發展契機</p>",
+          "description": "<span class='inline-block bg-yellow px-2 py-1 mb-1 text-white'>專講/對談</span><p>主持人：《今周刊》發行人梁永煌<br>中華民國對外貿易發展協會董事長 黃志芳<br>MIH Consortium執行長 鄭顯聰</p>"
+        },
+        {
+          "time": "15:00-15:10",
+          "event": "休息時間",
+          "description": ""
+        },
+        {
+          "time": "15:10-16:30",
+          "event": "<span class='inline-block bg-red px-2 py-1 mb-1 text-white'>高峰對談(七)</span><p>投資台灣─城市經濟力新前景</p>",
+          "description": "<span class='inline-block bg-yellow px-2 py-1 mb-1 text-white'>專講/對談</span><p>主持人：財信傳媒集團董事長 謝金河<br>高雄市市長 陳其邁<br>桃園市市長 鄭文燦</p>"
+        },
+        {
+          "time": "16:30",
+          "event": "司儀結尾  高峰會第二天圓滿結束",
+          "description": ""
+        }
+      ]
+    }
+  ],
   "report": {
     "title": "前瞻觀點",
     "titleEN": "REPORT",
