@@ -62,8 +62,12 @@ npm run-script build
         ]
     },
     "video": {
-        "title": "標題名稱",
-        "list": ["youtube影片編號", "youtube影片編號2"]
+        "list": [
+            {
+                "title": "小標",
+                "youtubeID": "youtube影片編號"
+            }
+        ]
     },
     "issue": {
         "title": "標題名稱",

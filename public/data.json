@@ -94,7 +94,17 @@
     ]
   },
   "video": {
-    "list": ["qfwNRwXzBb8"]
+    "list": [{
+        "title": "第一天 8月18日",
+        "youtubeID": "GhKymJXeN28"
+
+      },
+      {
+        "title": "第二天 8月19日",
+        "youtubeID": "qfwNRwXzBb8"
+
+      }
+    ]
   },
   "spotlight": {
     "title": "領袖匯聚，共創未來",
@@ -157,24 +167,21 @@
     "title": "貴賓/講者",
     "titleEN": "GUEST",
     "list": [
-      [
-        {
-          "type": "-特邀貴賓-",
-          "name": "賴清德",
-          "position": "中華民國副總統",
-          "image": "images/speakers/speaker1-1.png",
-          "experience": [
-            {
-              "title": "學歷：",
-              "list": ["美國哈佛大學公共衛生學院碩士畢業", "國立臺灣大學復健醫學系學士畢業", "國立成功大學學士後醫學系畢業"]
-            },
-            {
-              "title": "經歷：",
-              "list": ["成大、新樓醫院主治醫師", "第3屆國大代表", "全國教師會顧問", "第4-7屆立法委員", "立法院衛生環境與社會福利委員會召集委員", "立法院跨黨派厚生會會長", "立法院司法委員會召集委員", "立法院民進黨團幹事長", "台南市市長（直轄市第1-2屆）", "行政院第29任院長", "中華民國第15任副總統"]
-            }
-          ]
-        }
-      ],
+      [{
+        "type": "-特邀貴賓-",
+        "name": "賴清德",
+        "position": "中華民國副總統",
+        "image": "images/speakers/speaker1-1.png",
+        "experience": [{
+            "title": "學歷：",
+            "list": ["美國哈佛大學公共衛生學院碩士畢業", "國立臺灣大學復健醫學系學士畢業", "國立成功大學學士後醫學系畢業"]
+          },
+          {
+            "title": "經歷：",
+            "list": ["成大、新樓醫院主治醫師", "第3屆國大代表", "全國教師會顧問", "第4-7屆立法委員", "立法院衛生環境與社會福利委員會召集委員", "立法院跨黨派厚生會會長", "立法院司法委員會召集委員", "立法院民進黨團幹事長", "台南市市長（直轄市第1-2屆）", "行政院第29任院長", "中華民國第15任副總統"]
+          }
+        ]
+      }],
       [{
           "type": "-國際講師-",
           "name": "巴里．艾肯格林<br><span class='text-base'>Barry Eichengreen</span>",
@@ -254,8 +261,7 @@
           "name": "王錫欽",
           "position": "中鋼公司總經理",
           "image": "images/speakers/speaker3-21.png",
-          "experience": [
-            {
+          "experience": [{
               "title": "學歷：",
               "list": ["1991-1994年: 國立中山大學材料研究所博士", "1989-1990年: 美國匹兹堡大學材料所進修(研究主題－Nb（C,N）於加熱過程固溶行為研究)", "1981年: 國立臺灣大學機械研究所材料組碩士", "1979年: 國立臺灣大學機械系學士"]
             },
@@ -271,8 +277,7 @@
           "name": "汪渡村",
           "position": "日月光投控集團行政長",
           "image": "images/speakers/speaker3-5.png",
-          "experience": [
-            {
+          "experience": [{
               "title": "現職：",
               "list": ["日月光半導體董事", "日月光環保永續基金會董事兼執行長"]
             },
@@ -358,8 +363,7 @@
           "name": "簡志誠",
           "position": "中華電信行動通信分公司總經理",
           "image": "images/speakers/speaker3-19.png",
-          "experience": [
-            {
+          "experience": [{
               "isDescription": true,
               "title": "學經歷：",
               "list": ["1994年，國立臺灣工業技術學院電子工程博士畢業，主修人工智慧/專家系統。自1985年進入中華電信(前身交通部電信總局)，歴任各業務主管職務迄今36年。"]
@@ -428,8 +432,7 @@
           "name": "陳其邁",
           "position": "高雄市市長",
           "image": "images/speakers/speaker3-17.png",
-          "experience": [
-            {
+          "experience": [{
               "title": "學歷：",
               "list": ["中山醫學院醫學系學士", "國立臺灣大學公共衛生碩士"]
             },
@@ -444,8 +447,7 @@
           "name": "鄭文燦",
           "position": "桃園市市長",
           "image": "images/speakers/speaker3-20.png",
-          "experience": [
-            {
+          "experience": [{
               "title": "學歷：",
               "list": ["國立臺灣大學國家發展研究所碩士", "國立臺灣大學社會系", "國立臺灣大學電機系"]
             },
@@ -482,11 +484,9 @@
       ]
     ]
   },
-  "agenda": [
-    {
+  "agenda": [{
       "tabName": "8月18日(三)",
-      "morning": [
-        {
+      "morning": [{
           "time": "09:00-09:30",
           "event": "連結開通・觀眾待機",
           "description": ""
@@ -527,8 +527,7 @@
           "description": ""
         }
       ],
-      "afternoon": [
-        {
+      "afternoon": [{
           "time": "13:30-14:55",
           "event": "<span class='inline-block bg-red px-2 py-1 mb-1 text-white'>高峰對談(二)</span><p>國際新標準─永續願景：ESG趨勢與發展</p>",
           "description": "<span class='inline-block bg-yellow px-2 py-1 mb-1 text-white'>專講/對談</span><p>主持人：《今周刊》研發長 王之杰<br>中鋼公司總經理 王錫欽<br>日月光投控集團行政長 汪渡村<br>國泰投信暨國泰私募股權董事長 張錫</p>"
@@ -552,8 +551,7 @@
     },
     {
       "tabName": "8月19日(四)",
-      "morning": [
-        {
+      "morning": [{
           "time": "09:00-09:25",
           "event": "連結開通・觀眾待機",
           "description": ""
@@ -584,8 +582,7 @@
           "description": ""
         }
       ],
-      "afternoon": [
-        {
+      "afternoon": [{
           "time": "13:30-13:50",
           "event": "<span class='inline-block bg-red px-2 py-1 mb-1 text-white'>專題演講(四)</span><p>引領互動新科技：VR & AR大未來</p>",
           "description": "Facebook台灣及香港總經理 余怡慧"
