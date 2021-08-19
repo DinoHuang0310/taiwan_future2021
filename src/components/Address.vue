@@ -11,28 +11,28 @@
       <!-- media -->
       <div v-if="getVideo" class="overflow-hidden">
         <div class="container w-11/12 m-auto text-center">
-          <Title>{{ getVideo.title }}</Title>
-          <slick :options="slickOptions" class="max-w-1366 mx-auto">
+          <div class="max-w-1366 mx-auto">
             <div
               v-for="list in getVideo.list"
               :key="list.index"
               class="px-1/20"
             >
+              <h4 class="text-lg md:text-2xl mt-8 mb-4">{{ list.title }}</h4>
               <div class="relative pb-mediabox">
                 <YoutubePlayer
-                  :videoId="list"
+                  :videoId="list.youtubeID"
                   :active="activeVideo"
                   v-on:setActiveVideo="setActiveVideo"
                   class="absolute w-full h-full top-0 left-0"
                 />
               </div>
             </div>
-          </slick>
+          </div>
         </div>
       </div>
     </ContentWrapper>
 
-    <!-- 贈品 -->
+    <!-- 贈品
     <ContentWrapper :setBackground="{type: 'fixed', value: backgroundImage}">
       <div class="container w-11/12 m-auto">
         <h4 class="text-lg md:text-2xl pb-8 text-center">2021 台灣大未來 國際高峰會 線上論壇參加＆抽獎辦法</h4>
@@ -128,14 +128,13 @@
         </ul>
       </div>
     </ContentWrapper>
+    -->
   </div>
 </template>
 
 <script>
 import ContentWrapper from './models/ContentWrapper'
 import Title from './models/Title'
-import Slick from 'vue-slick';
-import 'slick-carousel/slick/slick.css';
 import YoutubePlayer from './YoutubePlayer'
 
 import backgroundImage from '../assets/images/background.png'
@@ -145,20 +144,11 @@ export default {
   components: {
     ContentWrapper,
     Title,
-    Slick,
     YoutubePlayer,
   },
   data() {
     return {
       backgroundImage,
-      slickOptions: {
-        infinite: false,
-        autoplay: false,
-        autoplaySpeed : 3000,
-        adaptiveHeight: true,
-        slidesToShow: 1,
-        slidesToScroll: 1
-      },
       activeVideo: '' // 當前播放中的影片ID
     }
   },
@@ -177,46 +167,3 @@ export default {
   }
 }
 </script>
-
-<style>
-#about .slick-arrow {
-  position: absolute;
-  top: 50%;
-  width: 30px;
-  height: 30px;
-  transform: translate(0, -50%);
-  font-size: 0;
-  padding: 0;
-  background-repeat: no-repeat;
-  background-position: center;
-  border: none;
-  outline: none;
-  z-index: 1;
-}
-.slick-arrow:before {
-  display: none;
-}
-#about .slick-prev {
-  left: -5%;
-  background-image: url('../assets/images/chevron-left-solid.svg');
-}
-#about .slick-next {
-  right: -5%;
-  background-image: url('../assets/images/chevron-right-solid.svg');
-}
-.slick-disabled {
-  opacity: .2;
-}
-@media (min-width: 640px) {
-  #about .slick-arrow {
-    width: 40px;
-    height: 40px;
-  }
-  #about .slick-prev {
-    left: 0;
-  }
-  #about .slick-next {
-    right: 0;
-  }
-}
-</style>
