@@ -2,12 +2,13 @@
   <div>
     <ContentWrapper>
       <div v-if="getAddress" class="container w-11/12 m-auto text-center">
-        <Title>{{ getAddress.title }}</Title>
+        <Title v-if="getAddress.title">{{ getAddress.title }}</Title>
         <!-- <p class="md:text-lg">8/18、19兩天  尊榮峰會</p> -->
         <!-- <p class="mb-3 md:text-lg">原價20,000 <span class="text-red">回饋讀者  免費收看</span></p> -->
         <!-- <p class="text-lg md:text-2xl">敬 請 期 待</p> -->
 
         <!-- 得獎公告 -->
+        <!--
         <h4 class="text-lg md:text-2xl pb-8 text-center">2021 台灣大未來 國際高峰會 中獎名單＆領獎辦法</h4>
         <div class="max-w-1366 mx-auto">
           <div class="md:px-1/20">
@@ -549,6 +550,7 @@
             </ol>
           </div>
         </div>
+        -->
       </div>
 
       <!-- media -->

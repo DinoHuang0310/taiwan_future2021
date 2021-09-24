@@ -6,12 +6,6 @@
       "isAnchor": true
     },
     {
-      "name": "最新資訊",
-      "nameEN": "LATEST NEWS",
-      "url": "#activity",
-      "isAnchor": true
-    },
-    {
       "name": "論壇引言",
       "nameEN": "ABOUT",
       "url": "#about",
@@ -737,7 +731,7 @@
     "closeMessage": "席次售罄‧銘謝額滿"
   },
   "address": {
-    "title": "最新資訊",
+    "title": "",
     "date": "2021/08/18(三) - 2021/08/19(四)",
     "address": "香格里拉台北遠東國際大飯店3F 遠東宴會廳<br>(台北市敦化南路二段201號）"
   },
